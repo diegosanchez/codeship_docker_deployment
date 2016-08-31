@@ -5,6 +5,8 @@ demo:
   links:
     - redis
     - postgres
+  environment:
+    TEST_TOKEN: 1
 redis:
   image: redis:3.0.5
 postgres:
